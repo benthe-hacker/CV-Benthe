@@ -10,11 +10,18 @@ body {
 	color: #202030;
 	background-color: #f8f8fc;
 }
-
+h1 {
+	font-family: "American Typewriter", "American Typewriter Bold", "American Typewriter Condensed", "American Typewriter Condensed Bold", "American Typewriter Condensed Light", "American Typewriter Light", "American Typewriter Semibold"
+}
+h3 {
+	font-family: "American Typewriter", "American Typewriter Bold", "American Typewriter Condensed", "American Typewriter Condensed Bold", "American Typewriter Condensed Light", "American Typewriter Light", "American Typewriter Semibold";
+	font-size: 20px;
+	color: #69A0F9;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #DFB085;
 }
 
 .resume-main {
@@ -22,7 +29,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #F1DDCA;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +55,15 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.language-level {
+	border-color: #2D86FF !important;
+}
+.language-progress {
+	background-color: #8FC9FB !important;
+	
+	
+}
+h6 {
+	color: #000000
 }
